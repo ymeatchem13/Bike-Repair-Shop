@@ -980,7 +980,7 @@
     transition: height 0.3s;
   }
   #cs-navigation .cs-logo img {
-    width: 80%;
+    width: 100%;
     max-width: 16.25rem;
     height: auto;
     max-height: 7.5rem;
@@ -1501,19 +1501,19 @@
 @media only screen and (min-width: 0rem) {
   #footer {
     background: #1c1c1c;
-    padding: 5.25rem 0 calc(20 / 16 * 1rem);
+    padding: 3rem 0 calc(20 / 16 * 1rem);
     font-size: min(4vw, 1.2em);
   }
   #footer .left-section {
     margin: auto;
-    margin-bottom: 3.125rem;
+    margin-bottom: 1rem;
     text-align: center;
   }
   #footer .left-section .logo {
     display: inline-block;
     margin: auto;
     margin-bottom: 1.875em;
-    height: 2em;
+    height: 8em;
     width: auto;
     text-align: center;
   }
@@ -1647,11 +1647,11 @@
   #footer .left-section {
     margin: 0;
     width: 25.5625rem;
-    text-align: left;
+    text-align: center;
   }
   #footer .left-section .logo {
     margin-left: 0;
-    height: 2.5rem;
+    height: 10rem;
     text-align: left;
   }
   #footer .left-section p {

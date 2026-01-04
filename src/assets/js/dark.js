@@ -27,7 +27,7 @@ function detectColorScheme() {
 	}
 
 	// if there is no preference set, the default of light will be used. apply accordingly
-	theme === 'dark' ? enableDarkMode() : disableDarkMode();
+	theme === 'dark' ? disableDarkMode() : disableDarkMode();
 }
 
 // run on page load
@@ -36,5 +36,5 @@ detectColorScheme();
 // add event listener to the dark mode button toggle
 document.getElementById('dark-mode-toggle').addEventListener('click', () => {
 	// on click, check localStorage for the dark mode value, use to apply the opposite of what's saved
-	localStorage.getItem('theme') === 'light' ? enableDarkMode() : disableDarkMode();
+	localStorage.getItem('theme') === 'light' ? disableDarkMode() : disableDarkMode();
 });

@@ -1,14 +1,14 @@
 module.exports = {
-    "name": "Code Stitch Web Designs",
-    "email": "help@codestitch.app",
-    "phoneForTel": "555-779-4407",
-    "phoneFormatted": "(555) 779-4407",
+    "name": "Queen City Auto Repairs",
+    "email": "help@queencityautorepairs.com",
+    "phoneForTel": "513-283-3923",
+    "phoneFormatted": "(513) 283-3923",
     "address": {
-        "lineOne": "First Address Line",
+        "lineOne": "123 Main Street",
         "lineTwo": "Second Address Line",
-        "city": "Denver",
-        "state": "CO",
-        "zip": "80206",
+        "city": "Cincinnati",
+        "state": "OH",
+        "zip": "45202",
         "country": "US",
         "mapLink": "https://maps.app.goo.gl/TEdS5KoLC9ZcULuQ6"
     },
@@ -17,5 +17,5 @@ module.exports = {
         "instagram": "https://www.instagram.com/",
     },
     //! Make sure you include the file protocol (e.g. https://) and that NO TRAILING SLASH is included
-    "domain": "https://www.example.com"
+    "domain": "https://autorepaircwd.netlify.app"
 };
