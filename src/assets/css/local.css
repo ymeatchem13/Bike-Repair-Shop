@@ -4,14 +4,14 @@
 <--- -------------------------- -*/
 /* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
-  #services-1082 {
+  #services-1083 {
     padding: var(--sectionPadding);
     background-color: #f7f7f7;
   }
-  #services-1082 .cs-container {
+  #services-1083 .cs-container {
     width: 100%;
-    /* changes to 1440px at large desktop */
-    max-width: 51.5rem;
+    /* changes to 1280px at tablet */
+    max-width: 34.375rem;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -19,7 +19,7 @@
     /* 48px - 64px */
     gap: clamp(3rem, 6vw, 4rem);
   }
-  #services-1082 .cs-content {
+  #services-1083 .cs-content {
     /* set text align to left if content needs to be left aligned */
     text-align: center;
     width: 100%;
@@ -28,10 +28,10 @@
     /* centers content horizontally, set to flex-start to left align */
     align-items: center;
   }
-  #services-1082 .cs-title {
+  #services-1083 .cs-title {
     max-width: 20ch;
   }
-  #services-1082 .cs-card-group {
+  #services-1083 .cs-card-group {
     width: 100%;
     margin: 0;
     padding: 0;
@@ -41,7 +41,7 @@
     /* 16px - 20px */
     gap: clamp(1rem, 2vw, 1.25rem);
   }
-  #services-1082 .cs-item {
+  #services-1083 .cs-item {
     text-align: left;
     list-style: none;
     width: 100%;
@@ -53,16 +53,16 @@
     position: relative;
     z-index: 1;
   }
-  #services-1082 .cs-item:hover .cs-picture:before {
+  #services-1083 .cs-item:hover .cs-picture:before {
     opacity: 0.8;
   }
-  #services-1082 .cs-item:hover .cs-picture img {
+  #services-1083 .cs-item:hover .cs-picture img {
     transform: scale(1.2);
   }
-  #services-1082 .cs-item:hover .cs-h3 {
+  #services-1083 .cs-item:hover .cs-h3 {
     background-color: var(--primary);
   }
-  #services-1082 .cs-picture {
+  #services-1083 .cs-picture {
     width: 100%;
     /* 180px - 240px */
     height: clamp(11.25rem, 24vw, 15rem);
@@ -71,7 +71,7 @@
     display: block;
     position: relative;
   }
-  #services-1082 .cs-picture:before {
+  #services-1083 .cs-picture:before {
     /* black hover overlay */
     content: "";
     width: 100%;
@@ -84,7 +84,7 @@
     left: 0;
     transition: opacity 0.3s;
   }
-  #services-1082 .cs-picture img {
+  #services-1083 .cs-picture img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -94,7 +94,7 @@
     z-index: -1;
     transition: transform 0.65s;
   }
-  #services-1082 .cs-h3 {
+  #services-1083 .cs-h3 {
     /* 20px - 25px */
     font-size: clamp(1.25rem, 2.5vw, 1.5625rem);
     line-height: 1.5em;
@@ -113,10 +113,10 @@
     justify-content: flex-start;
     align-items: center;
     /* 8px - 16px */
-    gap: clamp(0.5rem, 1vw, 1rem);
+    gap: clamp(0.5rem, 1.5vw, 1rem);
     transition: background-color 0.3s;
   }
-  #services-1082 .cs-item-text {
+  #services-1083 .cs-item-text {
     font-size: clamp(0.875rem, 1.5vw, 1rem);
     line-height: 1.5em;
     text-align: inherit;
@@ -129,7 +129,7 @@
     padding-bottom: 0;
     color: var(--bodyTextColor);
   }
-  #services-1082 .cs-link {
+  #services-1083 .cs-link {
     font-size: 1rem;
     line-height: 1.2em;
     text-align: inherit;
@@ -142,10 +142,10 @@
     align-items: center;
     justify-content: flex-start;
   }
-  #services-1082 .cs-link:hover .cs-arrow {
+  #services-1083 .cs-link:hover .cs-arrow {
     transform: translateX(0.25rem);
   }
-  #services-1082 .cs-arrow {
+  #services-1083 .cs-arrow {
     width: 1.25rem;
     height: auto;
     display: block;
@@ -154,17 +154,17 @@
 }
 /* Tablet - 768px */
 @media only screen and (min-width: 48rem) {
-  #services-1082 .cs-item {
+  #services-1083 .cs-container {
+    max-width: 80rem;
+  }
+  #services-1083 .cs-item {
     grid-column: span 6;
   }
 }
-/* Large Desktop - 1300px */
-@media only screen and (min-width: 81.25rem) {
-  #services-1082 .cs-container {
-    max-width: 90rem;
-  }
-  #services-1082 .cs-item {
-    grid-column: span 3;
+/* Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+  #services-1083 .cs-item {
+    grid-column: span 4;
   }
 }
 /*-- -------------------------- -->
