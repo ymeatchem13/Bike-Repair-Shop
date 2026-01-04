@@ -322,6 +322,7 @@
     padding-bottom: 0.75rem;
     position: relative;
     z-index: 1;
+    display: none;
   }
   #cs-navigation .cs-top-bar:before {
     /* grey line */
@@ -346,7 +347,7 @@
     justify-content: space-between;
   }
   #cs-navigation .cs-logo {
-    height: 2.5rem;
+    height: 4.5rem;
     width: auto;
     display: block;
   }
