@@ -1,14 +1,14 @@
 module.exports = {
-    "name": "Queen City Auto Repairs",
-    "email": "help@queencityautorepairs.com",
-    "phoneForTel": "513-283-3923",
-    "phoneFormatted": "(513) 283-3923",
+    "name": "Cin City Cycles",
+    "email": "help@cincitycycles.com",
+    "phoneForTel": "513-347-0029",
+    "phoneFormatted": "(513) 347-0029",
     "address": {
-        "lineOne": "123 Main Street",
+        "lineOne": "5149 Crookshank Rd",
         "lineTwo": "Second Address Line",
         "city": "Cincinnati",
         "state": "OH",
-        "zip": "45202",
+        "zip": "45238",
         "country": "US",
         "mapLink": "https://maps.app.goo.gl/TEdS5KoLC9ZcULuQ6"
     },
@@ -17,5 +17,5 @@ module.exports = {
         "instagram": "https://www.instagram.com/",
     },
     //! Make sure you include the file protocol (e.g. https://) and that NO TRAILING SLASH is included
-    "domain": "https://autorepaircwd.netlify.app"
+    "domain": "https://cincitycycles.netlify.app"
 };
